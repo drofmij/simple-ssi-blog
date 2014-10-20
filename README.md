@@ -3,8 +3,8 @@ simple-ssi-blog
 
 **Simple Serverside Include Blog**
 
-I built this to support my tilde.club blog: http://tilde.club/~drofmij
-My main reason for building this was so I don't need to copy and paste all of the html boilerplate stuff from page to page.
+So I was hanging out at tilde.club (my site over there: http://tilde.club/~drofmij) and someone mentioned in the (internal) IRC that Server Side Includes was turned on. Somehow I skipped this technology and went straight to PHP. So given that I was building a site in a Retro *NIX community server I figured I would use an older technology to build it.
+
 
 **Features**
 
