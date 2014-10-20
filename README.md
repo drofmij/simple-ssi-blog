@@ -37,6 +37,7 @@ level of config granularity at a later date.
 1. edit ROOT/include/headcontent.shtml and change <title> value to your title
 2. edit ROOT/include/header.shtml and change Simple SSI Blog to your site title or logo
 3. edit ROOT/article/about.inc and change to your about info
+4. edit ROOT/include/footer.shtml and update with your footer info
 
 **ARTICLES**
 
