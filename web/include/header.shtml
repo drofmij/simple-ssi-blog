@@ -1,0 +1,6 @@
+<header>
+<h1 class="logo"><a href="<!--#include virtual='base.inc'-->">Simple SSI Blog</a></h1>
+<nav>| <a href="<!--#include virtual='base.inc'-->/about">About</a> | <a href="<!--#include virtual='base.inc'-->/articles">Articles</a> |</nav>
+<hr>
+<p>A simple blog framework for complex folks</p>
+</header>

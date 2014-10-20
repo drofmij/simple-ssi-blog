@@ -1,0 +1,4 @@
+<meta charset="UTF-8">
+<title>simple-ssi-blog</title>
+<link type="text/css" rel="stylesheet" href="<!--#include virtual='base.inc'-->/css/style.css">
+

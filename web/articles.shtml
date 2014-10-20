@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include virtual="include/headcontent.shtml" -->
+<!--#include virtual="include/analytics.shtml" -->
+</head>
+<body>
+<!--#include virtual="include/header.shtml" -->
+<section>
+<header><h2>Articles</h2></header>
+<ul>
+  <li><time datetime="2014-10-17">17 October 2014</time> - <a href="article/article1">Article 1</a></li>
+</section>
+<!--#include virtual="include/footer.shtml" -->
+</body>
+</html>
+

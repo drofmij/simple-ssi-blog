@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include virtual="include/headcontent.shtml" -->
+</head>
+<!--#include virtual="include/header.shtml" -->
+<!--#include virtual="article/article1-content.shtml" -->
+<!--#include virtual="include/footer.shtml" -->
+<hr>
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^$ index.shtml
+RewriteRule ^(.*/)$ $1index.shtml
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.shtml [L]
+RedirectMatch 301 include/$ /ssi/web
+RedirectMatch 301 article/$ /ssi/web
+RedirectMatch 301 css/$ /ssi/web
+
+
