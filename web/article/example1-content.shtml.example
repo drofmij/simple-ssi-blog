@@ -1,0 +1,10 @@
+<article>
+  <header>
+    <time class="article-date" datetime="2014-10-09">9 October 2014</time>
+    <h2><a href="<!--#include virtual='../include/base.inc'-->/article/example1.shtml">Your Article Name Here</a></h2>
+  </header>
+  <section>
+    <p>Your Conent Here</p>
+  </section>
+</article>
+
