@@ -9,13 +9,13 @@ So I was hanging out at tilde.club (my site over there: http://tilde.club/~drofm
 **Features**
 
 - Simple(ish) blog
-- Article permalinks with mod rewrite ala: example.com/article/article-name
+- Blog Post permalinks with mod rewrite ala: example.com/blog/blog-name
 - Clean + Simple UI
 - HTML5
 
 **CONS / TODO**
 
-- some hand editing is needed to make a new article / post (considering scripting this with markdown parser)
+- some hand editing is needed to make a new blog / post (considering scripting this with markdown parser)
 - navigation could use some ... tuning :D
 - currently only works with apache + ssi + mod rewrite
 
@@ -34,16 +34,17 @@ level of config granularity at a later date.
 
 **YOUR CONTENT**
 
-1. edit ROOT/include/headcontent.shtml and change <title> value to your title
-2. edit ROOT/include/header.shtml and change Simple SSI Blog to your site title or logo
-3. edit ROOT/article/about.inc and change to your about info
-4. edit ROOT/include/footer.shtml and update with your footer info
+1. edit ROOT/blog/about.inc and change to your about info
+2. edit ROOT/include/analytics.shtml and add your analytics stuff (if any)
+3. edit ROOT/include/footer.shtml and update with your footer info
+4. edit ROOT/include/headcontent.shtml and change <title> value to your title
+5. edit ROOT/include/header.shtml and change Simple SSI Blog to your site title or logo
 
 **ARTICLES**
 
-1. copy ROOT/article/example1.shtml.example to ROOT/article/yourarticle.shtml
-2. copy ROOT/article/example1-content.shtml.example to ROOT/article/yourarticle-content.shtml
-3. edit ROOT/article/yourarticle.shtml change the following line:
+1. copy ROOT/blog/example1.shtml.example to ROOT/blog/yourpost.shtml
+2. copy ROOT/blog/example1-content.shtml.example to ROOT/blog/yourpost-content.shtml
+3. edit ROOT/blog/yourpost.shtml change the following line:
 
 ```
 <!--#include virtual="example1-content.shtml" -->
@@ -51,29 +52,29 @@ level of config granularity at a later date.
 
 Change to:
 ```
-<!--#include virtual="yourarticle-content.shtml" -->
+<!--#include virtual="yourpost-content.shtml" -->
 ```
-yourarticle.shtml should now look something like:
+yourpost.shtml should now look something like:
 ```
 <!--#include virtual="../include/html5start.shtml"-->
 <!--#include virtual="../include/headcontent.shtml" -->
 <!--#include virtual="../include/analytics.shtml" -->
 <!--#include virtual="../include/header.shtml" -->
-<!--#include virtual="yourarticle-content.shtml" -->
+<!--#include virtual="yourpost-content.shtml" -->
 <!--#include virtual="../include/footer.shtml" -->
 ```
 
-You should be able to navigate directly to (your site url)/article/yourarticle
+You should be able to navigate directly to (your site url)/blog/yourpost
 
-4. (OPTIONAL) edit ROOT/articles.shtml and add remove list entries as appropriate
+4. (OPTIONAL) edit ROOT/posts.shtml and add remove list entries as appropriate
 5. edit ROOT/index.shtml and replace:
 ```
-<!--#include virtual="article/article1-content.shtml" -->
+<!--#include virtual="blog/blogpost1-content.shtml" -->
 ```
 
 With Your file:
 ```
-<!--#include virtual="article/article1-content.shtml" -->
+<!--#include virtual="blog/yourpost1-content.shtml" -->
 ```
 
 Thats all for now. :D
