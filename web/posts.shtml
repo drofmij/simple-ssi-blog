@@ -1,0 +1,13 @@
+<!--#include virtual="include/html5start.shtml"-->
+<!--#include virtual="include/headcontent.shtml" -->
+<!--#include virtual="include/analytics.shtml" -->
+<!--#include virtual="include/header.shtml" -->
+<section>
+<header><h2>Blog</h2></header>
+<ul>
+  <li><time datetime="2014-10-17">17 October 2014</time> - <a href="blog/blogpost2">Blog Post 2</a></li>
+  <li><time datetime="2014-10-10">17 October 2014</time> - <a href="blog/blogpost1">Blog Post 1</a></li>  
+</ul>
+</section>
+<!--#include virtual="include/footer.shtml" -->
+

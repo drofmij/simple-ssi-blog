@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!--#include virtual="include/html5start.shtml"-->
 <!--#include virtual="include/headcontent.shtml" -->
 <!--#include virtual="include/analytics.shtml" -->
-</head>
-<body>
 <!--#include virtual="include/header.shtml" -->
 <!--#include virtual="article/about.inc" -->
 <!--#include virtual="include/footer.shtml" -->
-</body>
-</html>
 

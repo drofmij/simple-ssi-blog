@@ -1,4 +1,6 @@
 RewriteEngine On
+# Because don't break old urls
+RewriteRule article/(.*) blog/$1
 RewriteRule ^$ index.shtml
 RewriteRule ^(.*/)$ $1index.shtml
 RewriteCond %{REQUEST_FILENAME} !-d

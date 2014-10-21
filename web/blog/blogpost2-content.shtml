@@ -1,7 +1,7 @@
 <article>
   <header>
   <time class="article-date" datetime="2014-10-09">9 October 2014</time>
-  <h2><a href="<!--#include virtual='../include/base.inc'-->/article/article1">Article 1</a></h2>
+  <h2><a href="<!--#include virtual='../include/base.inc'-->/blog/blogpost2">Blog Post 2</a></h2>
   </header>
   <section>
     <p>Bacon ipsum dolor sit amet brisket salami drumstick meatball. Shoulder pastrami tongue sausage. Spare ribs cow jerky, hamburger corned beef flank bacon strip steak fatback chuck. Boudin spare ribs brisket sirloin andouille venison rump short loin tenderloin turkey chuck filet mignon frankfurter. Venison turducken prosciutto doner, brisket sausage pig meatloaf shoulder tail swine drumstick ribeye filet mignon jerky. Brisket kevin strip steak corned beef t-bone.</p>
