@@ -5,6 +5,9 @@ simple-ssi-blog
 
 So I was hanging out at tilde.club (my site over there: http://tilde.club/~drofmij) and someone mentioned in the (internal) IRC that Server Side Includes was turned on. Somehow I skipped this technology and went straight to PHP. So given that I was building a site in a Retro *NIX community server I figured I would use an older technology to build it.
 
+**Demo Site**
+
+Live demo is at: http://tilde.club/~drofmij/simple-ssi-blog
 
 **Features**
 
